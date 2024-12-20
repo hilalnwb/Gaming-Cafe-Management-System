@@ -17,7 +17,7 @@ public class Tables {
                     + "email VARCHAR(200) UNIQUE NOT NULL, "
                     + "password VARCHAR(100) NOT NULL, "
                     + "phone VARCHAR(20) NOT NULL, "
-                    + "status VARCHAR(50) DEFAULT 'false', " // Default status is 'false'
+                    + "status VARCHAR(50) DEFAULT 'false', " // Default status is 'false' [USERS WILL BE APPROVED BY ADMIN]
                     + "created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
                     + ")";
             // Corrected the INSERT statement
