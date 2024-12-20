@@ -214,9 +214,7 @@ public class Home extends javax.swing.JFrame {
     private void showHelpDialog() {
         // HTML content for the help dialog with bold IDs
         String message = "<html>"
-                + "<p>Hilal (<b>001</b>)</p>"
-                + "<p>Raza (<b>019</b>)</p>"
-                + "<p>Qasim (<b>033</b>)</p>"
+                + "<p>https://github.com/hilalnwb/Gaming-Cafe-Management-Software(<b>001</b>)</p>"
                 + "</html>";
 
         // Load the help icon image from the specified file path

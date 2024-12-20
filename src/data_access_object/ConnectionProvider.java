@@ -14,7 +14,7 @@ public class ConnectionProvider {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/gcms?useSSL=false", // Database URL
                     "root", // Database username
-                    "Hilal6212@" // Database password
+                    "" // Database password [ENTER LOCAL SQL PASSWORD]
             );
             return con; // Return the established connection
         } catch (Exception e) {
